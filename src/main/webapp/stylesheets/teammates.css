@@ -196,7 +196,26 @@ h2 {
     font-weight: bold;
 }
 
-#caption {
+
+.contentContainer {
+    width:800px;
+    margin:auto; 
+}
+
+#contents1 {
+    width: 400px;
+    float: left;
+    height: 250px;
+}
+
+#contents2 {
+    width: 400px;
+    float: left;
+    height: 250px;
+    color:white;
+}
+
+h2 {
     margin: 30px auto;
     width: 800px;
     color: #e46d0b;
@@ -273,13 +292,13 @@ h2.subcaption {
 }
 
 .coreTeamDetailsCell{
-	vertical-align: middle; 
-	padding-left:10px;
+    vertical-align: middle; 
+    padding-left:10px;
 }
 
 .coreTeamPhotoCell{
-	padding-left:35px;
-	padding-bottom:5px;
+    padding-left:35px;
+    padding-bottom:5px;
 }
 
 #footer {
